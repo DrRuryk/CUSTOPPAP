@@ -1,0 +1,107 @@
+{
+  "mod_elements": [
+    {
+      "name": "BetterFurnace",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rcraft/blockstates/better_furnace.json",
+          "src/main/resources/assets/rcraft/models/item/better_furnace.json",
+          "src/main/java/net/mcreator/rcraft/block/BetterFurnaceBlock.java",
+          "src/main/resources/assets/rcraft/models/block/better_furnace.json"
+        ]
+      }
+    },
+    {
+      "name": "Betterfur",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betterfur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcraft/client/gui/BetterfurScreen.java",
+          "src/main/java/net/mcreator/rcraft/world/inventory/BetterfurMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Littlecokeker",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littlecokeker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcraft/block/LittlecokekerBlock.java",
+          "src/main/resources/assets/rcraft/models/block/littlecokeker.json",
+          "src/main/resources/assets/rcraft/blockstates/littlecokeker.json",
+          "src/main/resources/assets/rcraft/models/item/littlecokeker.json"
+        ]
+      }
+    },
+    {
+      "name": "Betfur",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcraft/recipes/betfur.json"
+        ]
+      }
+    },
+    {
+      "name": "Litcockrep",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "litcockrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcraft/recipes/litcockrep.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.rcraft.better_furnace": "Better Furnace",
+      "block.rcraft.littlecokeker": "Littlecokeker",
+      "gui.rcraft.betterfur.label_better_furnace": "Better Furnace"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rcraft",
+    "modName": "RCraft",
+    "version": "1.0.0",
+    "author": "wofls, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.rcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rcraft:block/pusta_testowa",
+    "up": "rcraft:block/pusta_testowa",
+    "north": "rcraft:block/pusta_testowa",
+    "east": "rcraft:block/test1",
+    "south": "rcraft:block/pusta_testowa",
+    "west": "rcraft:block/pusta_testowa",
+    "particle": "rcraft:block/pusta_testowa"
+  },
+  "render_type": "solid"
+}

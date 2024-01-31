@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "b b",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone_bricks"
+    },
+    "b": {
+      "item": "minecraft:infested_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "rcraft:better_furnace",
+    "count": 1
+  }
+}
